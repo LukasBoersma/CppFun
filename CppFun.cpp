@@ -1,6 +1,3 @@
-C++ Fun
-======
-
 // Trigraphen, das hier gibt LOL| aus:
 printf("LOL??!");
  
