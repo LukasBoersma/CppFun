@@ -1,4 +1,28 @@
-CppFun
+C++ Fun
 ======
 
-Random interesting C++ snippets
+// Trigraphen, das hier gibt LOL| aus:
+printf("LOL??!");
+ 
+// Funktionsnamen dereferenzieren:
+void foo() { }
+void (*f)() = &foo;
+void (*f)() = foo;
+void (*f)() = *foo;
+void (*f)() = &*foo;
+void (*f)() = *******foo;
+void (*f)() = ***&*** foo;
+ 
+// Spaß mit dem ternären Operator
+b ? foo() : bar(); /* ist das gleiche wie: */ (b ? foo : bar)();
+(a == 0 ? a : b) = 1;
+ 
+// Index-Operator
+a[10] == 10[a]
+ 
+// Quizfrage: Was macht das?
+*_*=*_**_;
+ 
+// Oder das?
+for (auto _ : std::vector<int>{1,2,3,4,5})
+std::cout << *__for_begin << std::endl; 
