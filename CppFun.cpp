@@ -23,3 +23,5 @@ a[10] == 10[a]
 // Oder das?
 for (auto _ : std::vector<int>{1,2,3,4,5})
 std::cout << *__for_begin << std::endl; 
+
+// Fun fact: Die spitzen Klammern bei static_cast<...> sind keine Template-Klammern.
