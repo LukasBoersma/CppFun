@@ -2,7 +2,7 @@
 printf("LOL??!");
 
 //Warum wird die nächste Zeile nicht ausgeführt??/
-printf("Ich bin ein noop :(")
+printf("Ich bin ein noop :(");
  
 // Funktionsnamen dereferenzieren:
 void foo() { }
