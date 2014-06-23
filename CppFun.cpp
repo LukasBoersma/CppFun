@@ -1,5 +1,8 @@
 // Trigraphen, das hier gibt LOL| aus:
 printf("LOL??!");
+
+//Warum wird die nächste Zeile nicht ausgeführt??/
+printf("Ich bin ein noop :(")
  
 // Funktionsnamen dereferenzieren:
 void foo() { }
