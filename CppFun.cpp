@@ -48,3 +48,6 @@ struct A2{
 
 cout<<sizeof(A1)<<endl;
 cout<<sizeof(A2)<<endl;
+
+// This is not in the ISO standard, but most compilers accept it. What does it?
+a = b ? : c;
