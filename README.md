@@ -68,4 +68,12 @@ struct A2{
 
 cout<<sizeof(A1)<<endl;
 cout<<sizeof(A2)<<endl;
+
+// This is legal:
+
+int main()
+{
+    return 1,2,3;
+}
 ```
+
